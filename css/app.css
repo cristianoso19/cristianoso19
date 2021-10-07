@@ -1,8 +1,11 @@
 :root{
    --bg-color: #212432;
-   --bg-navbar-color: blue;
+   --bg-navbar-color: rgba(255,255,255,0.1);
+   --bg-card-color: rgba(255,255,255,0.1);
+   --bg-blur: blur(35px);
+   --border-color: 1px solid rgba(255,255,255,0.1);
+   --shadow: 0 0 80px rgba(0,0,0,0.25);
    --font-primary-color: #c2c2c2;
-   --border-color: red;
 }
 
 * {
@@ -13,16 +16,20 @@
 
 html {
    font-size: 62.5%;
-   font-family: "Poppins", sans-serif, Helvetica;
+   font-family: "Poppins", sans-serif;
    background-color: var(--bg-color);
    color: var(--font-primary-color);
 }
+.glass{
+   background-color: var(--bg-card-color);
+   border: var(--border-color);
+   backdrop-filter: var(--bg-blur);
+   box-shadow: var(--shadow);
+   border-radius: 1rem;
+}
 nav {
    margin: 1.3rem 2rem;
-   height: 47px;
-   background-color: blue;
-   border: solid 1px var(--border-color);
-   border-radius: 1rem;
+   height: 4.7rem;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -38,3 +45,17 @@ nav {
    font-size: 2.4rem;
    padding-right: 1rem;
 }
+.container{
+   margin-left: 2rem;
+   margin-right: 2rem;
+}
+.section-title{
+   font-size: 1.6rem;
+   font-weight: 500;
+   margin-bottom: 0.5rem;
+}
+
+.card{
+   padding: 1.2rem 0.4rem;
+}
+
