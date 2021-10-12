@@ -28,7 +28,7 @@ html {
    border-radius: 1rem;
 }
 nav {
-   margin: 1.3rem 2rem;
+   margin: 1.3rem 2rem 0 2rem;
    height: 4.7rem;
    display: flex;
    justify-content: space-between;
@@ -50,6 +50,7 @@ nav {
    margin-right: 2rem;
 }
 .section-title{
+   margin-top: 1.3rem;
    font-size: 1.6rem;
    font-weight: 500;
    margin-bottom: 0.5rem;
@@ -69,13 +70,20 @@ nav {
    display: flex;
 }
 .card-body-img{
-   width: 12rem;
-   height: 8rem;
+   min-width: 12rem;
+   height: 12rem;
    border-radius: 6rem;
-   border: 1px solid red;
    background-image: url('../img/IMG_4867.JPG');
    background-repeat: no-repeat;
    background-size: cover;
 }
-.card-body-img img{
+.card-body-text{
+   color: white;
+   font-weight: 400;
+   font-size: 1.1rem;
+   line-height: 1.65rem;
+   text-align: center;
+   padding-left: 0.3rem;
+   padding-right: 0.3rem;
+
 }
