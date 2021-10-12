@@ -108,27 +108,36 @@ nav {
    flex-wrap:  wrap;
 }
 
-.sink{
+.badge{
    height: 7.1rem;
    width: 8.4rem;
-   background-color: #161A22;
    border-radius: 1rem;
+   margin-top: 0.8rem;
    margin-right: 0.6rem;
-   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
    text-align: center;
    display: inherit;
    flex-direction: column;
    align-content: center;
 }
-.sink img {
-   width: 5rem;   
-   height: 5rem;
+.badge img {
+   margin-top: 0.6rem;
+   width: 4rem;   
+   height: 4rem;
    align-self: center;
 }
 
-.sink span{
-   color: #fff;
+.badge span{
    font-family: "Montserrat";
    font-size: 1.2rem;
    font-weight: 400;
+}
+.sink{
+   background-color: #161A22;
+   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+   color: #c2c2c2;
+}
+.blur{
+   background-color: var(--bg-color);
+   color: #c2c2c2;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
