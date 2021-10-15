@@ -81,6 +81,7 @@ nav {
    background-image: url('../img/IMG_4867.JPG');
    background-repeat: no-repeat;
    background-size: cover;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
 }
 .card-body-text{
    color: white;
